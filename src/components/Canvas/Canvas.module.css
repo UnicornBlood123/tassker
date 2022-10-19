@@ -1,0 +1,11 @@
+.wrapper {
+  height: 400px;
+}
+
+canvas {
+  background-color: #eaeaea;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Canvas.module.css.map */

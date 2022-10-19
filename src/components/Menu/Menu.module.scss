@@ -1,0 +1,11 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  gap: 10px;
+  img{
+    height: 40px;
+    width: 40px;
+    cursor: grab;
+  }
+}
