@@ -4,10 +4,13 @@ import Menu from "../Menu/Menu";
 import Canvas from "../Canvas/Canvas";
 import FileManager from "../FileManager/FileManager";
 
+const href = window.location.href;
+console.log(href);
+
 const images = [
   {
     id: 0,
-    path: "/img/pngegg (0).png",
+    path: `${href}/img/pngegg (0).png`,
     img: function () {
       const img = new Image();
       img.src = this.path;
@@ -16,7 +19,7 @@ const images = [
   },
   {
     id: 1,
-    path: "/img/pngegg (1).png",
+    path: `${href}/img/pngegg (1).png`,
     img: function () {
       const img = new Image();
       img.src = this.path;
@@ -25,7 +28,7 @@ const images = [
   },
   {
     id: 2,
-    path: "/img/pngegg (2).png",
+    path: `${href}/img/pngegg (2).png`,
     img: function () {
       const img = new Image();
       img.src = this.path;
@@ -34,7 +37,7 @@ const images = [
   },
   {
     id: 3,
-    path: "/img/pngegg (3).png",
+    path: `${href}/img/pngegg (3).png`,
     img: function () {
       const img = new Image();
       img.src = this.path;
@@ -43,7 +46,7 @@ const images = [
   },
   {
     id: 4,
-    path: "/img/pngegg (4).png",
+    path: `${href}/img/pngegg (4).png`,
     img: function () {
       const img = new Image();
       img.src = this.path;
@@ -52,7 +55,7 @@ const images = [
   },
   {
     id: 5,
-    path: "/img/pngegg (5).png",
+    path: `${href}/img/pngegg (5).png`,
     img: function () {
       const img = new Image();
       img.src = this.path;
